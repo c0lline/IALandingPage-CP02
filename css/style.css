@@ -4,12 +4,13 @@
     --third-color: #b9f0d7;
     --background-color: #0c0c16;
     --text-color: #FFFF;
-    /*--text-color: #6666ff;*/
+    --black-color: #000;
     --principal-font: "Noto-sans", sans-serif;
     --weight-title-font: 900;
     --size-title-font: 50px;
     
     --big-images: 350px;
+    --small-images: 250px;
 }
 
 *{
@@ -64,4 +65,53 @@ h4{
 
 .second-btn{
     border: 2px solid var(--principal-color);
+}
+
+.second-div{
+    text-align: center;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.grid-cards{
+    border: 3px solid var(--black-color);
+    flex-direction: column;
+    align-items: center;
+    
+    height: 50%;
+}
+
+.card{
+    width: 204px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+.card h3{
+    margin: 15px;
+}
+
+.card-img{
+    width: var(--small-images);
+}
+
+
+
+.p-footer{
+    background-color: var(--principal-color);
+    text-align: center;
+    padding: 30px;
+}
+
+.footer{
+    margin-top: 7rem;
+    display: block;
+    bottom: 0;
 }
