@@ -1,14 +1,11 @@
 :root{
     --principal-color: #A38DF2;
-    --second-color: #c9e8ff;
-    --third-color: #b9f0d7;
     --background-color: #0c0c16;
     --text-color: #FFFF;
     --black-color: #000;
     --principal-font: "Noto-sans", sans-serif;
     --weight-title-font: 900;
     --size-title-font: 50px;
-    
     --big-images: 350px;
     --small-images: 200px;
 }
@@ -129,6 +126,18 @@ h4{
     width: var(--small-images);
 }
 
+.last-container{
+    margin: 0 10%;
+}
+
+.list{
+    padding: 30px;
+    
+}
+
+.checkli{
+    justify-content: center;
+}
 
 .p-footer{
     background-color: var(--principal-color);
@@ -137,7 +146,7 @@ h4{
 }
 
 .footer{
-    margin-top: 7rem;
+    margin-top: 2rem;
     display: block;
     bottom: 0;
 }
