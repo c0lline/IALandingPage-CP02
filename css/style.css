@@ -132,11 +132,7 @@ h4{
 
 .list{
     padding: 30px;
-    
-}
-
-.checkli{
-    justify-content: center;
+    line-height: 2.5;
 }
 
 .p-footer{
